@@ -1,4 +1,3 @@
-package codonPackage;
 
 /* 
  * Author: Renee Linford
