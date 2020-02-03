@@ -7,7 +7,7 @@ This capstone project is a game called "CODON".  It reinforces concepts about th
 A player builds the longest amino acid chain they can in the given amount of time.  Inside a ribosome complex, there is an mRNA strand with nucleotide bases A, C, U, and G.  On the letter grid below, the player earns amino acids by finding the "anti-codon" match to the "codon" on the mRNA strand.  The base "A" always pairs with "U", and the base "C" pairs with "G".  The challenge of finding the matching "anti-codon" requires the player to think in reverse.  If the codon is "AGU", then the player must find the anti-codon "UCA" in the letter grid.  If there are no matches in the current letter grid, the player may use one energy to shuffle the letters.  One energy can be earned for every 5 amino acids the player collects.  
 
 ## Motivation
-This game encourages a casual and fun learning experience while reinforcing concepts about the translational process in cell biology.  I believe science and educational games can and should be fun and engaging, and such an approach brings better learning outcomes (see contribution section below for download).  
+This game encourages a casual and fun learning experience while reinforcing concepts about the translational process in cell biology.  I believe science and educational games can and should be fun and engaging, and such an approach brings better learning outcomes.  
 
 ## How to Play
 OBJECTIVE: 
@@ -29,7 +29,7 @@ ENERGY:
 The player is given 5 energy to start the game.  This energy can be used to shuffle the letter grid when necessary.  A player can earn one energy for every 5 amino acids they collect. 
 
 DOWNLOAD:
-To play CODON, download and run the jar file.
+To play CODON, download and run the jar file (see contribution section below).
 
 <figure><figcaption>CODON gameplay</><img src="Game Play example 1.png" alt="CODON gameplay" /> </figure>
 
@@ -220,7 +220,7 @@ This method creates a new random letter grid. The letters are randomized, but al
 
 
 ## Contributors
-Download and run the jar file to play the game.  
+Download and run the CodonGame.jar file to play the game.  
 It can be played on a mac or PC computer.  I will be updating and improving this game from time to time, and I am happy to receive feedback.  Since this game is for science education and casual gameplay, please play and share. 
 
 Please do not copy or sell this work. 
