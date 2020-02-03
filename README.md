@@ -26,7 +26,7 @@ If a player cannot find a match in the grid, click the "SHUFFLE" button to refre
 ENERGY:
 The player is given 5 energy to start the game.  This energy can be used to shuffle the letter grid when necessary.  A player can earn one energy for every 5 amino acids they collect. 
 
-[CODON gameplay] <img src="Game_Play_example_1/Game_Play_example_1.png" />
+[CODON gameplay] <img src="Game Play example 1.png"/>
 
 ## Code Example
 Show a small snippet of the code you are proud of and why.
