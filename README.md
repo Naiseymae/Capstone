@@ -28,6 +28,9 @@ If a player cannot find a match in the grid, click the "SHUFFLE" button to refre
 ENERGY:
 The player is given 5 energy to start the game.  This energy can be used to shuffle the letter grid when necessary.  A player can earn one energy for every 5 amino acids they collect. 
 
+DOWNLOAD:
+To play CODON, download and run the jar file.
+
 <figure><figcaption>CODON gameplay</><img src="Game Play example 1.png" alt="CODON gameplay" /> </figure>
 
 
@@ -217,7 +220,7 @@ This method creates a new random letter grid. The letters are randomized, but al
 
 
 ## Contributors
-Below is a link to download and play the game.  
+Download and run the jar file to play the game.  
 It can be played on a mac or PC computer.  I will be updating and improving this game from time to time, and I am happy to receive feedback.  Since this game is for science education and casual gameplay, please play and share. 
 
 Please do not copy or sell this work. 
