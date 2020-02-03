@@ -2,14 +2,16 @@
 CODON: It's base-ic science!
 
 ## Synopsis
-This capstone project is a game called "CODON". A player tries to build the longest amino acid chain they can in the given amount of time.  Inside a ribosome complex, there is an mRNA strand with nucleotide bases A, C, U, and G.  On the letter grid below, the player earns amino acids by finding the "anti-codon" match to the "codon" on the mRNA strand.  The base "A" always pairs with "U", and the base "C" pairs with "G".  The challenge of finding the matching "anti-codon" requires the player to think in reverse.  If the codon is "AGU", then the player must find the anti-codon "UCA" in the letter grid.  If there are no matches in the current letter grid, the player may use one energy to shuffle the letters.  One energy can be earned with every 5 amino acids the player collects.  
+This capstone project is a game called "CODON".  It reinforces concepts about the translation process in cell biology.
+
+A player builds the longest amino acid chain they can in the given amount of time.  Inside a ribosome complex, there is an mRNA strand with nucleotide bases A, C, U, and G.  On the letter grid below, the player earns amino acids by finding the "anti-codon" match to the "codon" on the mRNA strand.  The base "A" always pairs with "U", and the base "C" pairs with "G".  The challenge of finding the matching "anti-codon" requires the player to think in reverse.  If the codon is "AGU", then the player must find the anti-codon "UCA" in the letter grid.  If there are no matches in the current letter grid, the player may use one energy to shuffle the letters.  One energy can be earned for every 5 amino acids the player collects.  
 
 ## Motivation
-This game encourages a casual and fun learning experience while reinforcing concepts about the translational process in cell biology.  I believe science and educational games can and should be fun and engaging, as such an approach bring better learning outcomes (see contribution section below for download).  
+This game encourages a casual and fun learning experience while reinforcing concepts about the translational process in cell biology.  I believe science and educational games can and should be fun and engaging, and such an approach brings better learning outcomes (see contribution section below for download).  
 
 ## How to Play
 OBJECTIVE: 
-Collect as many amino acids to build the longest polypeptide chain as possible in the given time.
+Collect as many amino acids to build the longest polypeptide chain as possible in the given amount of time.
 
 START:
 When start button is clicked, the game will display a ribosome complex with a mRNA strand of random bases (A, C, G, & U). The 3 bases labeled "CODON" glow to indicate the 3 bases the player needs to pair (i.e., if the codon is AUG, then the player needs to find letters UAC in the letter grid.)  The player starts with 5 energy and 99 seconds.
@@ -30,7 +32,7 @@ The player is given 5 energy to start the game.  This energy can be used to shuf
 
 
 ## Code Example 1
-This method is called when a player selects a correct anti-codon match.  It brings in a new tRNA with the player's anti-codon, adds the amino acid to the polypeptide chain, and the previous tRNA moves out of the ribosome complex.
+This method is called when a player selects a correct anti-codon match.  It brings in a new tRNA with the player's anti-codon, adds the amino acid to the polypeptide chain, and moves the previous tRNA out of the ribosome complex.
 
 ```
 @FXML 
@@ -215,5 +217,7 @@ This method creates a new random letter grid. The letters are randomized, but al
 
 
 ## Contributors
-Below is a link to open and play the game.  I will be updating and improving this game from time to time, and am happy to receive feedback.  
-Since this game is for science education and casual gameplay, please play and share. However, please do not copy or sell this work. 
+Below is a link to download and play the game.  
+It can be played on a mac or PC computer.  I will be updating and improving this game from time to time, and I am happy to receive feedback.  Since this game is for science education and casual gameplay, please play and share. 
+
+Please do not copy or sell this work. 
